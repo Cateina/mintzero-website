@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css-phone/iphone-8-homepage.css" />
+    <link rel="stylesheet" type="text/css" href="css-phone/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css-phone/globals.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+
+      @media (max-width: 575.98px) {
+        .HideOnMobile {
+          display: none;
+        }
+        .ShowOnMobile {
+          display: initial;
+        }
+      }
+
+      @media (min-width: 576px) {
+        .HideOnMobile {
+          display: initial;
+        }
+        .ShowOnMobile {
+          display: none;
+        }
+      }
+
+      .iphone-8-homepage{
+        background-color: transparent;
+      }
+
+    /*  Accordion CSS */
+      .accordion-button.collapsed{
+        /* background-color: #2c6572 !important; */
+        background-color: transparent !important;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+        /* border-top-right-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        border-bottom-right-radius: 5px !important; */
+        border-radius: 5px;
+      }
+
+
+      .accordion-button:not(.collapsed){
+        /* background-color: #2c6572 !important; */
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--screamin-green);
+        background-color: transparent !important;
+        border-bottom: 0 !important;
+        border-top-right-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+      }
+
+      .accordion-button:not(.collapsed) > div{
+        color: var(--screamin-green);
+      }
+ 
+      .accordion-button:after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+      }
+
+      .accordion-header{
+        background-color: transparent !important;
+        border-top-right-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+      }
+
+      .accordion-item{
+        background-color: transparent !important;
+        /* border: 0 !important; */
+
+      }
+
+      .accordion-item-border{
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--screamin-green);
+        border-top: 0;
+        border-bottom-left-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+      }
+      .accordion-item-border.show{
+        color: var(--screamin-green);
+      }
+      .morePadding {  
+        padding-bottom: 20px; /* solution with paddings */  
+      }  
+/*accordion ends here*/
+
+.media-assets {
+    background-color: transparent;
+    height: 24px;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 484px;
+    white-space: nowrap;
+    width: 55px;
+}
+
+.media-assets-check{
+  background-color: transparent;
+    height: 31px;
+    /* left: 64px; */
+    position: inherit !important;
+    top: 257px;
+    width: 31px;
+    margin-top : 7px;
+}
+.media-assets-check-fixed{
+  background-color: transparent;
+    height: 31px;
+    left: 64px;
+    position: absolute;
+    top: 257px;
+    width: 31px;
+}
+.logo-display {
+    background-color: transparent;
+    height: 24px;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 559px;
+    white-space: nowrap;
+    width: 55px;
+}
+
+  /* Horizontal Scrolling*/
+  .images {
+    display: flex;
+    width:65%;
+    align-items:center;
+    /* background-color: #eee; */
+    padding: 1rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    float:right;
+    padding-top: 220px;
+}
+
+.images > div {
+    flex: none;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.images img {
+    max-width:100%;
+    width: 100%;
+}
+@media (min-width: 960px) {
+
+.images {
+   overflow-x: visible;
+}
+
+.images > div {
+  flex-basis: 0;
+  flex-grow: 1;
+ }
+}
+
+   .scroll-div{
+        background-color: transparent;
+        height: 388px;
+        left: 133px;
+        position: inherit;
+        top: 225px;
+        width: 163px;
+    }
+
+    .rectangle-text-1 {
+    background-color: transparent;
+    height: 30px;
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    position: inherit !important;
+    text-align: center;
+    /* top: 26px; */
+    white-space: nowrap;
+    width: auto;
+    padding-top: 40px;
+}
+.rectangle-text-2{
+  background-color: transparent;
+    /* height: 48px; */
+    /* left: 23px; */
+    letter-spacing: 0.00px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: inherit  !important;
+    text-align: center;
+    /* top: 81px; */
+    /* width: 122px; */
+    margin-top: 25px;
+}
+.rectangle-line-1{
+  background-color: transparent;
+    height: 1px;
+    left: 14px;
+    position: inherit !important;
+    /* top: 77px; */
+    width: 131px;
+    margin-top:25px;
+}
+
+.rectangle-line-2{
+  background-color: transparent;
+    height: 1px;
+    left: 14px;
+    position: inherit !important;
+    /* top: 77px; */
+    width: 131px;
+    margin-top:15px;
+}
+.rectangle-text-3{
+    background-color: transparent;
+    height: 30px;
+    left: 43px;
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    position: inherit !important;
+    text-align: center;
+    top: 146px;
+    white-space: nowrap;
+    width: auto;
+    margin-top: 10px;
+}
+
+.rectangle-line-3{
+    background-color: transparent;
+    height: 1px;
+    /* left: 14px; */
+    position: inherit !important;
+    /* top: 189px; */
+    width: 131px;
+}
+
+.rectangle-text-4{
+  background-color: transparent;
+    height: 30px;
+    /* left: 53px; */
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    position: inherit !important;
+    text-align: center;
+    /* top: 202px; */
+    white-space: nowrap;
+    width: auto;
+}
+.rectangle-scroll {
+    background-color: var(--white-2);
+    border: 1px solid #4792a5;
+    border-radius: 10px;
+    height: 388px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: inherit;
+    top: 0px;
+    width: 155px;
+}
+
+.rectangle-group{
+        background-color: transparent;
+        height: 388px;
+        left: 133px;
+        position: inherit;
+        top: 225px;
+        width: 163px;
+    }
+    .rectangle {
+    background-color: var(--white-2);
+    border: 1px solid #4792a5;
+    border-radius: 10px;
+    height: 388px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: inherit;
+    top: 0px;
+    width: 155px;
+}
+
+.phone-header {
+    background-color: transparent;
+    height: 30px;
+    left: 68px;
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    position: inherit;
+    text-align: center;
+    top: 26px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.mint-zero-nft-tier1-tdb-membership-gUZC0t{
+  width: 259px !important;
+}
+
+.custom-font-weight-500{
+  font-weight:550;
+  color: var(--white);
+}
+.custom-font-weight-250{
+  font-weight:200;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  color: var(--white);
+  text-align: center;
+}
+
+.scroll-text-1{
+    background-color: transparent;
+    height: 30px;
+    /* left: 43px; */
+    letter-spacing: 0.00px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    white-space: nowrap;
+    width: auto;
+}
+/* Horizontal Scrolling ends here*/
+
+/* Cards */
+
+ .x1-vhM1AZ .rectangle-474-gUZC0t{
+  height: 490px !important;
+}
+
+.x2-vhM1AZ .rectangle-474-xv1DEg{
+  height: 490px !important;
+}
+
+.x3-vhM1AZ .rectangle-474-Tb7d8P{
+  height: 490px !important;
+}
+
+.x4-vhM1AZ .rectangle-474-LP6GIB{
+  height: 490px !important;
+}
+
+/*
+.rectangle-469-gUZC0t{
+  height: 500px !important;
+}
+
+.rectangle-474-xv1DEg{
+  height: 500px !important;
+}
+
+.rectangle-474-LP6GIB{
+  height: 500px !important;
+} */
+
+/* Card Ends Here */
+
+ .x2-vhM1AZ{
+  top: 970px !important;
+}
+
+.x3-vhM1AZ{
+  top: 1555px !important;
+}
+
+.margin-left{
+  margin-left:35px;
+}
+
+.width-258{
+  width: 258px;
+}
+
+.x4-vhM1AZ{
+  top: 2130px !important;
+} 
+
+.top-900{
+    position:absolute !important;
+    top: 900px !important;
+  }
+
+.top-1475{
+    position:absolute !important;
+    top: 1475px !important;
+  }
+
+  .top-2055{
+    position:absolute !important;
+    top: 2055px !important;
+  }
+
+  .top-2635{
+    position:absolute !important;
+    top: 2635px !important;
+  }
+
+/* */
+.group-289148-sxg2Z9{
+  top: 5241px !important;
+}
+/* */
+
+.mntzero-style{
+    background-color: var(--screamin-green) !important;
+    color:var(--screamin-green) !important;
+  }
+
+  .btn-font{
+    color: var(--casal);
+    font-family: var(--font-family-lato);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none !important;
+  }
+
+  
+
+    </style>
+  </head>
+  <body style="margin: 0; background: url(img-phone/bg.png);background-size: 700px;">
+    <div style="margin: 0; background: url(img-phone/bg.png);background-size: 700px;" class="mobile">
+    <input type="hidden" id="anPageName" name="page" value="iphone-8-homepage" />
+    <div class="container-center-horizontal">
+      <div class="iphone-8-homepage screen">
+        <img class="bg-sxg2Z9" src="img-phone/bg@1x.svg" />
+        <img class="rectangle-sxg2Z9" src="img-phone/rectangle@1x.png" />
+        <div class="rectangle-505-sxg2Z9"></div>
+        <img class="menu-sxg2Z9" src="img-phone/vector@2x.svg" />
+        <img class="logo-sxg2Z9" src="img-phone/logo@2x.svg" />
+        <div class="mint-a-carbon-neutra-sxg2Z9 valign-text-middle">
+          MINT A CARBON NEUTRAL FOOTPRINT. ONCE AND FOR ALL.
+        </div>
+        <div class="the-fastest-low-cost-sxg2Z9 valign-text-middle">
+          The fastest, low-cost, and high-impact way to acheive carbon neutrality
+        </div>
+        <!-- <a style="cursor: pointer;" class="btn-7dMxAg" href="http://mintzero.s3-website-us-east-1.amazonaws.com"><div class="btn-7dMxAg" >
+          <div class="rectangle-411-Xx2Hll"></div>
+          <div class="go-carbon-neutral-now-Xx2Hll valign-text-middle" >Go Carbon Neutral Now</div>
+        </div></a> -->
+        <a style="cursor: pointer;" class="btn-sxg2Z9" href="http://mintzero.s3-website-us-east-1.amazonaws.com">
+          <div class="btn-sxg2Z9" >
+          <div class="rectangle-411-x7I6bx"></div>
+          <div class="go-carbon-neutral-now-x7I6bx valign-text-middle">Go Carbon Neutral Now</div>
+          </div>
+        </a>
+        <img class="icon-user-sxg2Z9" src="img-phone/vector-16@2x.svg" />
+        <img class="bg-AJ1H4x" src="img-phone/bg-1@1x.svg" />
+        <div class="group-289149-sxg2Z9">
+          <div class="mint-your-carbon-neu-vhM1AZ valign-text-middle lato-semi-bold-white-30px">
+            Mint your carbon neutral footprint here. Once and for all.
+          </div>
+          <div class="mint-zero-makes-it-e-vhM1AZ valign-text-middle lato-light-white-18px">
+            MintZero makes it easy for individuals and businesses to become carbon neutral. Instead of constantly
+            offsetting the carbon footprint of electricity usage, travel, or other activities, choose your preferred NFT
+            membership, based on your current carbon footprint or that of your business. Need help determining your
+            carbon footprint?
+          </div>
+          <div class="x1-vhM1AZ">
+            <div class="rectangle-474-gUZC0t border-1px-white"></div>
+            <img class="rectangle-469-gUZC0t" src="img-phone/rectangle-469-3@2x.svg" />
+            <div class="mint-zero-nft-tier1-tdb-membership-gUZC0t lato-semi-bold-cyprus-20px">
+              *Platinum* - 200 credits/year
+            </div>
+            <div class="for-individuals-gUZC0t lato-semi-bold-screamin-green-16px">FOR LATER STAGE BUSINESSES</div>
+            <div class="membership-price-15-gUZC0t valign-text-middle lato-semi-bold-cyprus-20px">
+              One Time Buy:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$20,000
+              <i>($10 per credit, effective)</i>
+            </div>
+            
+            <!-- <div class="x92-92-gUZC0t valign-text-middle lato-normal-cyprus-18px">92 / 92</div>
+            <img class="line-20-gUZC0t" src="img-phone/line-20@2x.svg" /> -->
+            <div class="access-to-10-carbon-gUZC0t lato-normal-cyprus-14px">
+              Perfect for later-stage startups or groups of businesses with average travel and limited office space.
+            </div>
+          </div>
+          <div class="top-900 margin-left ">
+          <div class="mntzero-style btn btn-primary width-258">
+            <a style="cursor: pointer;" class="" href="#buyNFT">   
+              <div class="btn-font" >Get Platinum</div>
+            </a>
+          </div></div>
+          <div class="top-1475 margin-left">
+            <div class="mntzero-style btn btn-primary width-258">
+              <a style="cursor: pointer;" class="" href="#buyNFT">   
+                <div class="btn-font" >Get Gold</div>
+              </a>
+            </div></div>
+            <div class="top-2055 margin-left">
+              <div class="mntzero-style btn btn-primary width-258">
+                <a style="cursor: pointer;" class="" href="#buyNFT">   
+                  <div class="btn-font" >Get Silver</div>
+                </a>
+              </div></div>
+              <div class="top-2635 margin-left">
+                <div class="mntzero-style btn btn-primary width-258">
+                  <a style="cursor: pointer;" class="" href="#buyNFT">   
+                    <div class="btn-font" >Get Bronze</div>
+                  </a>
+                </div></div>
+          <!-- <div class="row ">
+            <div class="col-md-2 btn btn-primary ">
+              <a style="cursor: pointer;" class="col-md-2" href="#buyNFT">   
+                <div class=" btn-font" >Platinum</div>
+              </a>
+            </div></div> -->
+          <div class="x2-vhM1AZ">
+            <div class="rectangle-474-xv1DEg border-1px-white"></div>
+            <img class="rectangle-469-xv1DEg" src="img-phone/rectangle-469-2@2x.svg" />
+            <div class="mint-zero-nft-tier2-tbd-membership-xv1DEg valign-text-middle lato-semi-bold-cyprus-20px">
+              *Gold* - 100 credits/year
+            </div>
+            <!-- <div class="time-left-1725-xv1DEg valign-text-middle">time left 17:25</div>
+            <img class="icon-clock-xv1DEg" src="img-phone/vector-17@2x.svg" />
+            <div class="tbdtdb-xv1DEg valign-text-middle lato-normal-cyprus-18px">TBD/TDB</div>
+            <img class="line-20-xv1DEg" src="img-phone/line-20@2x.svg" /> -->
+            <div class="access-to-30-carbon-xv1DEg lato-normal-cyprus-14px">
+              The right choice for companies with up to 200 employees, average travel, and limited office space.
+            </div>
+            <div class="membership-price-50-xv1DEg valign-text-middle lato-semi-bold-cyprus-20px">
+              One Time Buy:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$11,000
+              <i>($11 per credit, effective)</i>
+            </div>
+            <div class="for-small-businesses-xv1DEg lato-semi-bold-screamin-green-16px">FOR MID-SIZED BUSINESSES</div>
+          </div>
+          <div class="x3-vhM1AZ">
+            <div class="rectangle-474-Tb7d8P border-1px-white"></div>
+            <img class="rectangle-469-Tb7d8P" src="img-phone/rectangle-469@2x.png" />
+            <div class="mint-zero-nft-tier3-tbd-membership-Tb7d8P valign-text-middle lato-semi-bold-cyprus-20px">
+              *Silver* - 30 credits/year
+            </div>
+            <!-- <div class="time-left-1725-Tb7d8P valign-text-middle">time left 17:25</div>
+            <img class="icon-clock-Tb7d8P" src="img-phone/vector-17@2x.svg" />
+            <div class="tbdtdb-Tb7d8P valign-text-middle lato-normal-cyprus-18px">TBD/TDB</div>
+            <img class="line-20-Tb7d8P" src="img-phone/line-20@2x.svg" /> -->
+            <div class="access-to-200-carbon-Tb7d8P lato-normal-cyprus-14px">
+              Perfect for small businesses with up to 50 employees, average travel, and limited office space.
+            </div>
+            <div class="membership-price-50-Tb7d8P valign-text-middle lato-semi-bold-cyprus-20px">
+              One Time Buy:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$3500
+              <i>($11.70 per credit, effective)</i>
+            </div>
+            <div class="for-larger-organisations-v-cs-Tb7d8P lato-semi-bold-screamin-green-16px">
+              FOR SMALL BUSINESSES
+            </div>
+          </div>
+          <div class="x4-vhM1AZ">
+            <div class="rectangle-474-LP6GIB border-1px-white"></div>
+            <img class="rectangle-469-LP6GIB" src="img-phone/rectangle-469@2x.svg" />
+            <div class="mint-zero-nft-tier4-tbd-membership-LP6GIB valign-text-middle lato-semi-bold-cyprus-20px">
+              *Bronze* - 10 credits/year
+            </div>
+            <!-- <div class="tbdtdb-LP6GIB valign-text-middle lato-normal-cyprus-18px">TBD/TDB</div>
+            <img class="line-20-LP6GIB" src="img-phone/line-20@2x.svg" /> -->
+            <div class="access-to-200-carbon-LP6GIB lato-normal-cyprus-14px">
+              This one’s for you if you have up to 10 employees and minimal travel and office space.
+            </div>
+            <div class="membership-price-50-LP6GIB valign-text-middle lato-semi-bold-cyprus-20px">
+              One Time Buy:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$1200
+              <i>($12 per credit, effective)</i>
+            </div>
+            <div class="for-larger-organisations-v-cs-LP6GIB lato-semi-bold-screamin-green-16px">
+              FOR START-UPS
+            </div>
+          </div>
+          <div class="terms-and-conditions-vhM1AZ valign-text-middle lato-light-white-18px">Terms and conditions</div>
+        </div>
+        <div class="group-289150-sxg2Z9">
+          <div class="companies-using-mint-TZ1Pyn valign-text-middle">
+            Companies using MintZero for easy and high-impact offsetting
+          </div>
+          <img class="logo-rbc-TZ1Pyn" src="img-phone/logo-rbc@2x.png" />
+          <img class="logo-cibc-TZ1Pyn" src="img-phone/logo-cibc@2x.png" />
+          <img class="logo-cibc-NEemOB" src="img-phone/logo-cibc@2x.png" />
+          <img class="logo-ibm-TZ1Pyn" src="img-phone/logo-ibm@2x.png" />
+          <img class="logo-rogers-TZ1Pyn" src="img-phone/logo-rogers@2x.png" />
+          <img class="logo-toronto-TZ1Pyn" src="img-phone/logo-toronto@2x.png" />
+        </div>
+        <div class="fa-qs-sxg2Z9 valign-text-middle lato-semi-bold-white-30px" id="faqs">FAQs</div>
+        <div class="group-289151-sxg2Z9">
+          <div class="rectangle-496-bgkUKi"></div>
+          <div class="want-to-be-the-first-bgkUKi valign-text-middle">
+            Want to be the first to learn about upcoming MintZero NFT drops?
+          </div>
+          <div class="give-us-your-details-bgkUKi valign-text-middle">Give us your details to get early heads up!</div>
+          <div class="rectangle-500-bgkUKi"></div>
+          <div class="rectangle-501-bgkUKi"></div>
+          <div class="rectangle-502-bgkUKi"></div>
+          <form 
+              method="POST" 
+              action="https://script.google.com/macros/s/AKfycbyF0vW_vQ6s9S9zE12RTrTSi_jdCpPi_x0gKNloGN58ha64-vL6i__y6y0qIXSPRDpQ/exec"
+              target=""
+            >
+            <input class="your-name-bgkUKi valign-text-middle lato-light-cyprus-18px" name="Name" type="text" placeholder="Name" style="border:none !important;" required>
+            <input  class="company-name-bgkUKi valign-text-middle lato-light-cyprus-18px" name="Company" type="text" style="border:none !important;" placeholder="Company Name" required>
+            <input class="email-bgkUKi valign-text-middle lato-light-cyprus-18px" name="Email" type="email" placeholder="Email" style="border:none !important;" required>
+          <div class="btn-bgkUKi">
+            <div class="rectangle-411-C0nALa"></div>
+            <button class="submit-C0nALa valign-text-middle" type="submit" style="border:none !important;" target="hiddenFrame">Submit</button>
+            
+          </div>
+          </form>
+        </div>
+        <div class="x1-sxg2Z9">
+          
+         
+
+          <!-- <div class="rectangle-478-Zznzhe"></div> -->
+          <div class="accordion " id="accordionExample"  >
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="lato-semi-bold-white-24px " >What are carbon credits?</div>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse show accordion-item-border" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="lato-semi-bold-white-24px " >Are these carbon credits/offsets verified?</div>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+            <!-- <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What is my carbon footprint?</div>
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingSix" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div> -->
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">How do I know where my carbon credits came from?</div>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingFive" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What is my carbon footprint?</div>
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingSix" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What is an NFT?</div>
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingSeven" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">Is there a presale?</div>
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingEight" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">Who is behind this project?</div>
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingNine" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What is the impact of MintZero on the world?</div>
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingTen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What is the impact of MintZero on my business?</div>
+                </button>
+              </h2>
+              <div id="collapseEleven" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingEleven" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">30 years? Isn't that a long time?</div>
+                </button>
+              </h2>
+              <div id="collapseTwelve" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What if I don't want my MintZero membership at a later date?</div>
+                </button>
+              </h2>
+              <div id="collapseThirteen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">Which blockchain protocol does MintZero use?</div>
+                </button>
+              </h2>
+              <div id="collapseFourteen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">Aren't blockchains/NFTs/crypto really bad for the planet?</div>
+                </button>
+              </h2>
+              <div id="collapseFifteen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingSixteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">Do you have a roadmap?</div>
+                </button>
+              </h2>
+              <div id="collapseSixteen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item morePadding">
+              <h2 class="accordion-header accordion-header-border" id="headingSeventeen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                  <div class="lato-semi-bold-white-24px " style="background-color: transparent !important;">What if I know a good carbon credit project for MintZero?</div>
+                </button>
+              </h2>
+              <div id="collapseSeventeen" class="accordion-collapse collapse accordion-item-border" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample" >
+                <div class="accordion-body lato-light-white-18px" >
+                  Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse Gases (GHGs). 
+        <br/>Organizations or individuals that have a carbon emissions footprint from their personal or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero (e.g. to achieve net zero emissions).  
+
+                </div>
+              </div>
+              </div>
+          </div>
+          <!-- <div class="carbon-credits-are-m-Zznzhe lato-light-white-18px">
+            Carbon credits are measurable, verifiable emission reductions from certified climate action projects. These
+            projects reduce, remove or avoid greenhouse gas (GHG) emissions. But they also can generate other positive
+            benefits, such as improving community livelihoods, protecting ecosystems, restoring forests or reducing
+            pollution from fossil fuels. One carbon credit is equal to one tonne of carbon dioxide equivalent Greenhouse
+            Gases (GHGs). <br />Organizations or individuals that have a carbon emissions footprint from their personal
+            or business activities can buy and retire carbon credits, to “offset” their footprint. Offsetting is
+            generally used in instances where it is not yet possible to fully reduce one’s carbon emissions to zero
+            (e.g. to achieve net zero emissions).
+          </div> -->
+          <!-- <div class="what-are-carbon-credits-Zznzhe lato-semi-bold-screamin-green-24px">What are carbon credits?</div>
+          <img class="vector-Zznzhe" src="img-phone/vector-19@2x.svg" /> -->
+        </div>
+        <!-- <div class="frame-1-sxg2Z9 border-1px-white">
+          <div class="are-these-carbon-creditsoffsets-verified-ULoVwD valign-text-middle lato-semi-bold-white-24px">
+            Are these carbon credits/offsets verified?
+          </div>
+          <img class="vector-ULoVwD" src="img-phone/vector-20@2x.svg" />
+        </div> -->
+        <!-- <div class="frame-2-sxg2Z9 border-1px-white">
+          <div class="how-do-i-know-where-Lm1zu1 valign-text-middle lato-semi-bold-white-24px">
+            How do I know where my carbon offsets came from?
+          </div>
+          <img class="vector-Lm1zu1" src="img-phone/vector-20@2x.svg" />
+        </div> -->
+        <!-- <div class="frame-3-sxg2Z9 border-1px-white">
+          <div class="what-is-my-carbon-footprint-qfxR9s valign-text-middle lato-semi-bold-white-24px">
+            What is my carbon footprint?
+          </div>
+          <img class="vector-qfxR9s" src="img-phone/vector-20@2x.svg" />
+        </div> -->
+        <!-- <div class="frame-4-sxg2Z9 border-1px-white">
+          <div class="whats-an-nft-cxxEZB valign-text-middle lato-semi-bold-white-24px">What’s an NFT?</div>
+          <img class="vector-cxxEZB" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-5-sxg2Z9 border-1px-white">
+          <div class="is-there-a-presale-7Y5cjl valign-text-middle lato-semi-bold-white-24px">Is there a presale?</div>
+          <img class="vector-7Y5cjl" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-6-sxg2Z9 border-1px-white">
+          <div class="who-is-behind-this-project-kLBjuY valign-text-middle lato-semi-bold-white-24px">
+            Who is behind this project?
+          </div>
+          <img class="vector-kLBjuY" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-7-sxg2Z9 border-1px-white">
+          <div class="what-is-the-impact-o-DYXQIG valign-text-middle lato-semi-bold-white-24px">
+            What is the impact of MintZero on the world?
+          </div>
+          <img class="vector-DYXQIG" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-8-sxg2Z9 border-1px-white">
+          <div class="what-is-the-impact-o-If9VOb valign-text-middle lato-semi-bold-white-24px">
+            What is the impact of MintZero on my business?
+          </div>
+          <img class="vector-If9VOb" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-9-sxg2Z9 border-1px-white">
+          <div class="x30-years-isnt-that-a-long-time-OugTlD valign-text-middle lato-semi-bold-white-24px">
+            30 years? Isn’t that a long time?
+          </div>
+          <img class="vector-OugTlD" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-10-sxg2Z9 border-1px-white">
+          <div class="what-if-i-dont-want-sdotKx valign-text-middle lato-semi-bold-white-24px">
+            What if I don’t want my MintZero membership at a later date?
+          </div>
+          <img class="vector-sdotKx" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-11-sxg2Z9 border-1px-white">
+          <div class="what-is-solana-XkVuH0 valign-text-middle lato-semi-bold-white-24px">What is Solana?</div>
+          <img class="vector-XkVuH0" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-12-sxg2Z9 border-1px-white">
+          <div class="arent-blockchainsnf-MMiK0j valign-text-middle lato-semi-bold-white-24px">
+            Aren’t blockchains/NFTs/crypto really bad for the planet?
+          </div>
+          <img class="vector-MMiK0j" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-13-sxg2Z9 border-1px-white">
+          <div class="do-you-have-a-roadmap-CR3MJg valign-text-middle lato-semi-bold-white-24px">
+            Do you have a roadmap?
+          </div>
+          <img class="vector-CR3MJg" src="img-phone/vector-20@2x.svg" />
+        </div>
+        <div class="frame-14-sxg2Z9 border-1px-white">
+          <div class="what-if-i-know-a-goo-SMyqjj valign-text-middle lato-semi-bold-white-24px">
+            What if I know a good carbon credit project for MintZero?
+          </div>
+          <img class="vector-SMyqjj" src="img-phone/vector-20@2x.svg" />
+        </div> -->
+        <div class="rectangle-492-sxg2Z9"></div>
+        <img class="logo-AJ1H4x" src="img-phone/logo-1@2x.svg" />
+        <div class="all-rights-reserved-mint-zero-sxg2Z9 valign-text-middle">
+          All rights reserved&nbsp;&nbsp;@ MintZero
+        </div>
+        <div class="group-289145-sxg2Z9">
+          <div class="mint-zero-is-the-eas-MP3WEa valign-text-middle">
+            <span
+              ><span class="span0-BA0pBx">MintZero </span
+              ><span class="span1-BA0pBx lato-semi-bold-white-30px"
+                >is the easiest way for small and high-growth businesses to neutralize their carbon footprint
+              </span>
+            </span>
+          </div>
+          <div class="x1-MP3WEa">
+            <div class="simply-purchase-your-JI4aVo valign-text-middle lato-light-white-18px">
+              Simply purchase your MintZero access today and receive automated carbon credits each quarter for the next
+              30 years. Your carbon credit purchases and offsets are recorded on the blockchain, and publicly verifiable
+              by your stakeholders
+            </div>
+            <div class="quick-easy-offset-yo-JI4aVo lato-semi-bold-white-24px-2">
+              <span class="span0-m3WLmm lato-semi-bold-screamin-green-24px">Quick &amp; easy:</span
+              ><span class="span1-m3WLmm lato-semi-bold-white-24px">
+                Offset your footprint for decades with one click</span
+              >
+            </div>
+            <div class="group-289142-JI4aVo">
+              <div class="ellipse-32-F9bSVY border-1px-white"></div>
+              <div class="ellipse-31-F9bSVY border-1px-white"></div>
+              <img class="vector-F9bSVY" src="img-phone/vector-49@2x.svg" />
+            </div>
+          </div>
+          <div class="x11-MP3WEa">
+            <div class="carbon-credit-prices-Njyx89 valign-text-middle lato-light-white-18px">
+              Carbon credit prices are projected to increase by 100% or more, but your MintZero purchase means you have no price risk for 30 years. 
+               You own your carbon credits: any credits you receive and don’t use are yours to sell or share
+            </div>
+            <div class="low-cost-protection-Njyx89 lato-semi-bold-white-24px-2">
+              <span class="span0-McWlbl lato-semi-bold-screamin-green-24px">Low cost:</span
+              ><span class="span1-McWlbl lato-semi-bold-white-24px" style="font-weight:500 !important"> Protection against potential price increases</span>
+            </div>
+            <div class="group-289143-Njyx89">
+              <div class="ellipse-32-KgmErL border-1px-white"></div>
+              <div class="ellipse-31-KgmErL border-1px-white"></div>
+              <img class="vector-KgmErL" src="img-phone/vector-50@2x.svg" />
+            </div>
+          </div>
+          <div class="x12-MP3WEa">
+            <div class="our-experts-have-yea-xCqvql valign-text-middle lato-light-white-18px">
+              Our experts have years of experience in sustainable development and emerging markets, and we work only
+              with projects with third-party verification, such as Gold Standard or Verra, with a focus on those with
+              additional livelihoods or other community benefits.
+            </div>
+            <div class="high-impact-diverse-xCqvql lato-semi-bold-white-24px-2">
+              <span class="span0-r7c779 lato-semi-bold-screamin-green-24px">High impact: </span
+              ><span class="span1-r7c779 lato-semi-bold-white-24px"> Diverse carbon projects with co-benefits</span>
+            </div>
+            <div class="group-289144-xCqvql">
+              <div class="ellipse-32-AOHwrA border-1px-white"></div>
+              <div class="ellipse-31-AOHwrA border-1px-white"></div>
+              <img class="icon-target-AOHwrA" src="img-phone/vector-51@2x.svg" />
+            </div>
+          </div>
+          <div class="x13-MP3WEa">
+            <div class="nft-members-gain-acc-xwkIcn valign-text-middle lato-light-white-18px">
+              NFT members gain access to the MintZero trademark, content, and social media assets to share your carbon
+              offsets story with investors, customers, or employees, and your company name and logo can be displayed on
+              the MintZero platform and blockchain.
+            </div>
+            <div class="shareable-use-our-so-xwkIcn lato-semi-bold-white-24px-2">
+              <span class="span0-cdz43U lato-semi-bold-screamin-green-24px">Shareable:</span
+              ><span class="span1-cdz43U lato-semi-bold-white-24px">
+                Use our social-ready assets to tell your story</span
+              >
+            </div>
+            <div class="x4-xwkIcn">
+              <div class="ellipse-32-orJYkC border-1px-white"></div>
+              <div class="ellipse-31-orJYkC border-1px-white"></div>
+              <img class="vector-orJYkC" src="img-phone/vector-52@2x.svg" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="group-289148-sxg2Z9">
+          <div class="which-token-is-right-dkhdBa valign-text-middle lato-semi-bold-white-30px">
+            Which token is right for me?
+          </div>
+          <div class="annual-carbon-offset-tokens-dkhdBa valign-text-middle custom-font-weight-500">
+            Annual carbon offset x 30 years
+          </div>
+          <div class="good-for-dkhdBa valign-text-middle custom-font-weight-500">For businesses </div>
+          <div class="nft-price-dkhdBa valign-text-middle custom-font-weight-500">NFT Price</div>
+          <div class="access-dkhdBa valign-text-middle custom-font-weight-500">No. Of NFTs available</div>
+          <div class="media-assets valign-text-middle custom-font-weight-500">Media Assets</div>
+          <div class="logo-display valign-text-middle custom-font-weight-500">Logo Display</div>
+ 
+<!-- Dynamic Scroll -->
+<div class="images">
+  <div class="scroll-div">
+    <div class="rectangle-scroll">
+        <div class="rectangle-text-1 valign-text-middle lato-light-white-18px">300 tons/yr</div>
+        <img class="rectangle-line-1" src="img-phone/line-10@2x.svg" />
+        <!-- <img class="line-10-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+        <div class="rectangle-text-2 valign-text-middle custom-font-weight-250">100+ employees</div>
+        <img class="rectangle-line-2" src="img-phone/line-10@2x.svg" />
+        <!-- <img class="line-20-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+        <div class="rectangle-text-3 valign-text-middle lato-light-white-18px">$90,000</div>
+        <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+        <div class="rectangle-text-4 valign-text-middle lato-light-white-18px">90</div>
+        <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+    <img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+    <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+    <img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+    </div>
+    
+    
+</div>
+<div class="scroll-div">
+  <div class="rectangle-scroll">
+    <div class="rectangle-text-1 valign-text-middle lato-light-white-18px">100 tons/yr</div>
+    <img class="rectangle-line-1" src="img-phone/line-10@2x.svg" />
+    <!-- <img class="line-10-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+    <div class="rectangle-text-2 valign-text-middle custom-font-weight-250">50+ employees</div>
+    <img class="rectangle-line-2" src="img-phone/line-10@2x.svg" />
+    <!-- <img class="line-20-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+    <div class="rectangle-text-3 valign-text-middle lato-light-white-18px">$32,000</div>
+    <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+    <div class="rectangle-text-4 valign-text-middle lato-light-white-18px">7</div>
+    <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+<img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+  </div>
+</div>
+<div class="scroll-div">
+<div class="rectangle-scroll">
+  <div class="rectangle-text-1 valign-text-middle lato-light-white-18px">30 tons/yr</div>
+  <img class="rectangle-line-1" src="img-phone/line-10@2x.svg" />
+  <!-- <img class="line-10-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+  <div class="rectangle-text-2 valign-text-middle custom-font-weight-250">10+ employees</div>
+  <img class="rectangle-line-2" src="img-phone/line-10@2x.svg" />
+  <!-- <img class="line-20-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+  <div class="rectangle-text-3 valign-text-middle lato-light-white-18px">$8,000</div>
+  <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+  <div class="rectangle-text-4 valign-text-middle lato-light-white-18px">2</div>
+  <img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+<img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+</div>
+</div>
+<div class="scroll-div">
+<div class="rectangle-scroll">
+<div class="rectangle-text-1 valign-text-middle lato-light-white-18px">10 tons/yr</div>
+<img class="rectangle-line-1" src="img-phone/line-10@2x.svg" />
+<!-- <img class="line-10-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+<div class="rectangle-text-2 valign-text-middle custom-font-weight-250">Start-ups</div>
+<img class="rectangle-line-2" src="img-phone/line-10@2x.svg" />
+<!-- <img class="line-20-jWYYGX" src="img-phone/line-10@2x.svg" /> -->
+<div class="rectangle-text-3 valign-text-middle lato-light-white-18px">$3,500</div>
+<img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<div class="rectangle-text-4 valign-text-middle lato-light-white-18px">1</div>
+<img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+<img class="rectangle-line-3" src="img-phone/line-10@2x.svg" />
+<img class="media-assets-check" src="img-phone/vector-53@2x.svg" />
+</div>
+</div>
+<div class="scroll-div">
+<!-- blank scroll  -->
+</div>
+</div>
+
+</div>
+<!-- Dynamic Scroll Ends Here -->
+      <!-- Static Scroll -->
+          <!-- <div class="group-289146-dkhdBa" style="margin-left:40px;"">
+            <div class="rectangle-468-jWYYGX" ></div>
+            <div class="x10-jWYYGX valign-text-middle lato-light-white-18px">10</div>
+            <div class="individualsfamilies-jWYYGX valign-text-middle lato-light-white-18px">Individuals/families</div>
+            <div class="x2-designs-jWYYGX valign-text-middle lato-light-white-18px">2 designs</div>
+            <div class="xx-sol-jWYYGX valign-text-middle lato-light-white-18px">XX SOL</div>
+            <img class="line-10-jWYYGX" src="img-phone/line-10@2x.svg" />
+            <img class="line-20-jWYYGX" src="img-phone/line-10@2x.svg" />
+            <img class="line-21-jWYYGX" src="img-phone/line-10@2x.svg" />
+            <img class="line-22-jWYYGX" src="img-phone/line-10@2x.svg" />
+            <img class="media-assets-check-fixed" src="img-phone/vector-53@2x.svg" />
+            <img class="line-23-jWYYGX" src="img-phone/line-10@2x.svg" />
+            <img class="vector-jWYYGX" src="img-phone/vector-53@2x.svg" />
+          </div>
+   
+          <div class="coming-soon-dkhdBa lato-light-white-18px">*coming soon</div>
+        </div> -->
+        <!-- Static Scroll Ends Here-->
+
+        <!-- <div class="status-bar-sxg2Z9">
+          <img class="status-bar-bg-UKxnFt" src="img-phone/status-bar-bg@2x.svg" />
+          <div class="status-bar-contents-UKxnFt">
+            <img class="bounds-b56qmJ" src="img-phone/vector@2x.png" />
+            <img class="wifi-b56qmJ" src="img-phone/wifi@2x.svg" />
+            <img class="reception-b56qmJ" src="img-phone/reception@2x.svg" />
+            <img class="battery-b56qmJ" src="img-phone/battery@2x.svg" />
+            <div class="time-b56qmJ"><div class="x1230-3BLV9x">12:30</div></div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+    <script>
+
+if (window.innerWidth >= 768) {
+    window.location = "./homepage-desktop.html";
+    }
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
+      const form = document.forms['google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => { //$('#alertBox').show();
+          console.log("HEY !!");alert("Thanks for Contacting us..! We Will Contact You Soon...")
+      })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,2449 @@
+/* screen - iphone-8-homepage */
+
+.iphone-8-homepage {
+  background-color: var(--white);
+  height: 10224px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.iphone-8-homepage .bg-sxg2Z9 {
+  background-color: transparent;
+  height: 10224px;
+  left: 717px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 314px;
+  width: 360px;
+}
+
+.iphone-8-homepage .rectangle-sxg2Z9 {
+  background-color: transparent;
+  height: 10212px;
+  left: 6px;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 326px;
+  width: 358px;
+}
+
+.iphone-8-homepage .rectangle-505-sxg2Z9 {
+  background-color: var(--white);
+  height: 890px;
+  left: 4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5924px;
+  width: 363px;
+}
+
+.iphone-8-homepage .menu-sxg2Z9 {
+  background-color: transparent;
+  height: 25px;
+  left: 315px;
+  position: absolute;
+  top: 50px;
+  width: 32px;
+}
+
+.iphone-8-homepage .logo-sxg2Z9 {
+  background-color: transparent;
+  height: 38px;
+  left: 15px;
+  position: absolute;
+  top: 45px;
+  width: 153px;
+}
+
+.iphone-8-homepage .mint-a-carbon-neutra-sxg2Z9 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+  height: 108px;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 118px;
+  width: 338px;
+}
+
+.iphone-8-homepage .the-fastest-low-cost-sxg2Z9 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+  height: 72px;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 239px;
+  width: 299px;
+}
+
+.iphone-8-homepage .btn-sxg2Z9 {
+  background-color: transparent;
+  height: 65px;
+  left: 30px;
+  position: absolute;
+  top: 345px;
+  width: 309px;
+}
+
+.iphone-8-homepage .rectangle-411-x7I6bx {
+  background-color: var(--screamin-green);
+  border-radius: 5px;
+  height: 65px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 307px;
+}
+
+.iphone-8-homepage .go-carbon-neutral-now-x7I6bx {
+  background-color: transparent;
+  color: #2c6572;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  height: 30px;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .icon-user-sxg2Z9 {
+  background-color: transparent;
+  height: 27px;
+  left: 264px;
+  position: absolute;
+  top: 48px;
+  width: 24px;
+}
+
+.iphone-8-homepage .bg-AJ1H4x {
+  background-color: transparent;
+  height: 706px;
+  left: 5px;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 476px;
+  width: 360px;
+}
+
+.iphone-8-homepage .group-289149-sxg2Z9 {
+  background-color: transparent;
+  height: 2605px;
+  left: 24px;
+  position: absolute;
+  top: 2572px;
+  width: 328px;
+}
+
+.iphone-8-homepage .mint-your-carbon-neu-vhM1AZ {
+  background-color: transparent;
+  height: 108px;
+  left: 5px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 311px;
+}
+
+.iphone-8-homepage .mint-zero-makes-it-e-vhM1AZ {
+  background-color: transparent;
+  height: 216px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 134px;
+  width: 322px;
+}
+
+.iphone-8-homepage .x1-vhM1AZ {
+  background-color: transparent;
+  height: 523px;
+  left: 17px;
+  position: absolute;
+  top: 390px;
+  width: 298px;
+}
+
+.iphone-8-homepage .rectangle-474-gUZC0t {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 523px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
+
+.iphone-8-homepage .rectangle-469-gUZC0t {
+  background-color: transparent;
+  height: 213px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 266px;
+}
+
+.iphone-8-homepage .mint-zero-nft-tier1-tdb-membership-gUZC0t {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 273px;
+  width: 258px;
+}
+
+.iphone-8-homepage .for-individuals-gUZC0t {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 244px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .membership-price-15-gUZC0t {
+  background-color: transparent;
+  height: 22px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 426px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .x92-92-gUZC0t {
+  background-color: transparent;
+  height: 24px;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 483px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-20-gUZC0t {
+  background-color: transparent;
+  height: 1px;
+  left: 11px;
+  position: absolute;
+  top: 468px;
+  width: 265px;
+}
+
+.iphone-8-homepage .access-to-10-carbon-gUZC0t {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 328px;
+  width: 258px;
+}
+
+.iphone-8-homepage .x2-vhM1AZ {
+  background-color: transparent;
+  height: 523px;
+  left: 20px;
+  position: absolute;
+  top: 933px;
+  width: 300px;
+}
+
+.iphone-8-homepage .rectangle-474-xv1DEg {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 523px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
+
+.iphone-8-homepage .rectangle-469-xv1DEg {
+  background-color: transparent;
+  height: 213px;
+  left: 11px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 266px;
+}
+
+.iphone-8-homepage .mint-zero-nft-tier2-tbd-membership-xv1DEg {
+  background-color: transparent;
+  height: 44px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 270px;
+  width: 248px;
+}
+
+.iphone-8-homepage .time-left-1725-xv1DEg {
+  background-color: transparent;
+  color: var(--cyprus);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: 22px;
+  left: 165px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 482px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .icon-clock-xv1DEg {
+  background-color: transparent;
+  height: 16px;
+  left: 142px;
+  position: absolute;
+  top: 485px;
+  width: 16px;
+}
+
+.iphone-8-homepage .tbdtdb-xv1DEg {
+  background-color: transparent;
+  height: 24px;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 481px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-20-xv1DEg {
+  background-color: transparent;
+  height: 1px;
+  left: 11px;
+  position: absolute;
+  top: 466px;
+  width: 265px;
+}
+
+.iphone-8-homepage .access-to-30-carbon-xv1DEg {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 328px;
+  width: 266px;
+}
+
+.iphone-8-homepage .membership-price-50-xv1DEg {
+  background-color: transparent;
+  height: 22px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 426px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .for-small-businesses-xv1DEg {
+  background-color: transparent;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 244px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .x3-vhM1AZ {
+  background-color: transparent;
+  height: 523px;
+  left: 20px;
+  position: absolute;
+  top: 1476px;
+  width: 300px;
+}
+
+.iphone-8-homepage .rectangle-474-Tb7d8P {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 523px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
+
+.iphone-8-homepage .rectangle-469-Tb7d8P {
+  background-color: transparent;
+  height: 213px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 266px;
+}
+
+.iphone-8-homepage .mint-zero-nft-tier3-tbd-membership-Tb7d8P {
+  background-color: transparent;
+  height: 44px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 270px;
+  width: 248px;
+}
+
+.iphone-8-homepage .time-left-1725-Tb7d8P {
+  background-color: transparent;
+  color: var(--cyprus);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: 22px;
+  left: 165px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 482px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .icon-clock-Tb7d8P {
+  background-color: transparent;
+  height: 16px;
+  left: 139px;
+  position: absolute;
+  top: 486px;
+  width: 16px;
+}
+
+.iphone-8-homepage .tbdtdb-Tb7d8P {
+  background-color: transparent;
+  height: 24px;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 481px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-20-Tb7d8P {
+  background-color: transparent;
+  height: 1px;
+  left: 11px;
+  position: absolute;
+  top: 466px;
+  width: 265px;
+}
+
+.iphone-8-homepage .access-to-200-carbon-Tb7d8P {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 328px;
+  width: 266px;
+}
+
+.iphone-8-homepage .membership-price-50-Tb7d8P {
+  background-color: transparent;
+  height: 22px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 426px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .for-larger-organisations-v-cs-Tb7d8P {
+  background-color: transparent;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 244px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .x4-vhM1AZ {
+  background-color: transparent;
+  height: 523px;
+  left: 21px;
+  position: absolute;
+  top: 2019px;
+  width: 298px;
+}
+
+.iphone-8-homepage .rectangle-474-LP6GIB {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 523px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
+
+.iphone-8-homepage .rectangle-469-LP6GIB {
+  background-color: transparent;
+  height: 213px;
+  left: 11px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 266px;
+}
+
+.iphone-8-homepage .mint-zero-nft-tier4-tbd-membership-LP6GIB {
+  background-color: transparent;
+  height: 44px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 270px;
+  width: 248px;
+}
+
+.iphone-8-homepage .tbdtdb-LP6GIB {
+  background-color: transparent;
+  height: 24px;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 481px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-20-LP6GIB {
+  background-color: transparent;
+  height: 1px;
+  left: 11px;
+  position: absolute;
+  top: 466px;
+  width: 265px;
+}
+
+.iphone-8-homepage .access-to-200-carbon-LP6GIB {
+  background-color: transparent;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 328px;
+  width: 266px;
+}
+
+.iphone-8-homepage .membership-price-50-LP6GIB {
+  background-color: transparent;
+  height: 22px;
+  left: 10px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 426px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .for-larger-organisations-v-cs-LP6GIB {
+  background-color: transparent;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 244px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .terms-and-conditions-vhM1AZ {
+  background-color: transparent;
+  height: 30px;
+  left: 73px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: right;
+  text-decoration: underline;
+  top: 2575px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .group-289150-sxg2Z9 {
+  background-color: transparent;
+  height: 455px;
+  left: 27px;
+  position: absolute;
+  top: 5996px;
+  width: 321px;
+}
+
+.iphone-8-homepage .companies-using-mint-TZ1Pyn {
+  background-color: transparent;
+  color: var(--cyprus);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  height: 108px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 311px;
+}
+
+.iphone-8-homepage .logo-rbc-TZ1Pyn {
+  background-color: transparent;
+  height: 91px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 264px;
+  width: 69px;
+}
+
+.iphone-8-homepage .logo-cibc-TZ1Pyn {
+  background-color: transparent;
+  height: 80px;
+  left: 176px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 146px;
+  width: 89px;
+}
+
+.iphone-8-homepage .logo-cibc-NEemOB {
+  background-color: transparent;
+  height: 80px;
+  left: 217px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  width: 89px;
+}
+
+.iphone-8-homepage .logo-ibm-TZ1Pyn {
+  background-color: transparent;
+  height: 57px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 158px;
+  width: 140px;
+}
+
+.iphone-8-homepage .logo-rogers-TZ1Pyn {
+  background-color: transparent;
+  height: 47px;
+  left: 105px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 286px;
+  width: 214px;
+}
+
+.iphone-8-homepage .logo-toronto-TZ1Pyn {
+  background-color: transparent;
+  height: 57px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 392px;
+  width: 188px;
+}
+
+.iphone-8-homepage .fa-qs-sxg2Z9 {
+  background-color: transparent;
+  height: 36px;
+  left: 147px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7138px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .group-289151-sxg2Z9 {
+  background-color: transparent;
+  height: 572px;
+  left: 18px;
+  position: absolute;
+  top: 6509px;
+  width: 343px;
+}
+
+.iphone-8-homepage .rectangle-496-bgkUKi {
+  background-color: var(--white);
+  border: 1px solid var(--screamin-green);
+  border-radius: 5px;
+  height: 572px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 333px;
+}
+
+.iphone-8-homepage .want-to-be-the-first-bgkUKi {
+  background-color: transparent;
+  color: var(--cyprus-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  height: 108px;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  width: 314px;
+}
+
+.iphone-8-homepage .give-us-your-details-bgkUKi {
+  background-color: transparent;
+  color: var(--cyprus);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+  height: 60px;
+  left: 46px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 157px;
+  width: 255px;
+}
+
+.iphone-8-homepage .rectangle-500-bgkUKi {
+  background-color: var(--aqua-squeeze);
+  border-radius: 5px;
+  height: 62px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 243px;
+  width: 303px;
+}
+
+.iphone-8-homepage .rectangle-501-bgkUKi {
+  background-color: var(--aqua-squeeze);
+  border-radius: 5px;
+  height: 62px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 316px;
+  width: 303px;
+}
+
+.iphone-8-homepage .rectangle-502-bgkUKi {
+  background-color: var(--aqua-squeeze);
+  border-radius: 5px;
+  height: 62px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 389px;
+  width: 303px;
+}
+
+.iphone-8-homepage .your-name-bgkUKi {
+  background-color: transparent;
+  height: 24px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 262px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .company-name-bgkUKi {
+  background-color: transparent;
+  height: 24px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 335px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .email-bgkUKi {
+  background-color: transparent;
+  height: 24px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 408px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .btn-bgkUKi {
+  background-color: transparent;
+  height: 62px;
+  left: 19px;
+  position: absolute;
+  top: 463px;
+  width: 303px;
+}
+
+.iphone-8-homepage .rectangle-411-C0nALa {
+  background-color: var(--screamin-green);
+  border-radius: 5px;
+  height: 62px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 301px;
+}
+
+.iphone-8-homepage .submit-C0nALa {
+  background-color: transparent;
+  color: #2c6572;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  height: 30px;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.iphone-8-homepage .x1-sxg2Z9 {
+  background-color: transparent;
+  height: 687px;
+  left: 18px;
+  position: absolute;
+  top: 7201px;
+  width: 337px;
+}
+
+.iphone-8-homepage .rectangle-478-Zznzhe {
+  background-color: var(--white-2);
+  border: 1px solid var(--screamin-green);
+  border-radius: 5px;
+  height: 687px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 333px;
+}
+
+.iphone-8-homepage .carbon-credits-are-m-Zznzhe {
+  background-color: transparent;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 89px;
+  width: 314px;
+}
+
+.iphone-8-homepage .what-are-carbon-credits-Zznzhe {
+  background-color: transparent;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .vector-Zznzhe {
+  background-color: transparent;
+  height: 12px;
+  left: 155px;
+  position: absolute;
+  top: 628px;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-1-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 7906px;
+}
+
+.iphone-8-homepage .are-these-carbon-creditsoffsets-verified-ULoVwD {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-ULoVwD {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-2-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8056px;
+}
+
+.iphone-8-homepage .how-do-i-know-where-Lm1zu1 {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-Lm1zu1 {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-3-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8206px;
+}
+
+.iphone-8-homepage .what-is-my-carbon-footprint-qfxR9s {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-qfxR9s {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-4-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8356px;
+}
+
+.iphone-8-homepage .whats-an-nft-cxxEZB {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-cxxEZB {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-5-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8506px;
+}
+
+.iphone-8-homepage .is-there-a-presale-7Y5cjl {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-7Y5cjl {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-6-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8656px;
+}
+
+.iphone-8-homepage .who-is-behind-this-project-kLBjuY {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-kLBjuY {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-7-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8806px;
+}
+
+.iphone-8-homepage .what-is-the-impact-o-DYXQIG {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-DYXQIG {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-8-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 8956px;
+}
+
+.iphone-8-homepage .what-is-the-impact-o-If9VOb {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-If9VOb {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-9-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9106px;
+}
+
+.iphone-8-homepage .x30-years-isnt-that-a-long-time-OugTlD {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-OugTlD {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-10-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9256px;
+}
+
+.iphone-8-homepage .what-if-i-dont-want-sdotKx {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-sdotKx {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-11-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9406px;
+}
+
+.iphone-8-homepage .what-is-solana-XkVuH0 {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-XkVuH0 {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-12-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9556px;
+}
+
+.iphone-8-homepage .arent-blockchainsnf-MMiK0j {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-MMiK0j {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-13-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9706px;
+}
+
+.iphone-8-homepage .do-you-have-a-roadmap-CR3MJg {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-CR3MJg {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .frame-14-sxg2Z9 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  left: 18px;
+  mix-blend-mode: normal;
+  padding-bottom: 17px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 17px;
+  position: absolute;
+  top: 9856px;
+}
+
+.iphone-8-homepage .what-if-i-know-a-goo-SMyqjj {
+  background-color: transparent;
+  height: 66px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 260px;
+}
+
+.iphone-8-homepage .vector-SMyqjj {
+  background-color: transparent;
+  height: 12px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.iphone-8-homepage .rectangle-492-sxg2Z9 {
+  background-color: var(--cyprus-2);
+  height: 294px;
+  left: 2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 10026px;
+  width: 392px;
+}
+
+.iphone-8-homepage .logo-AJ1H4x {
+  background-color: transparent;
+  height: 64px;
+  left: 57px;
+  position: absolute;
+  top: 10060px;
+  width: 255px;
+}
+
+.iphone-8-homepage .all-rights-reserved-mint-zero-sxg2Z9 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 83px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 10155px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .group-289145-sxg2Z9 {
+  background-color: transparent;
+  height: 1930px;
+  left: 14px;
+  position: absolute;
+  top: 545px;
+  width: 343px;
+}
+
+.iphone-8-homepage .mint-zero-is-the-eas-MP3WEa {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  height: 180px;
+  left: 7px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 327px;
+}
+
+.iphone-8-homepage .span0-BA0pBx {
+  color: var(--screamin-green);
+  font-style: normal;
+}
+
+.iphone-8-homepage .span1-BA0pBx {
+  font-style: normal;
+}
+
+.iphone-8-homepage .x1-MP3WEa {
+  background-color: transparent;
+  height: 405px;
+  left: 6px;
+  position: absolute;
+  top: 222px;
+  width: 337px;
+}
+
+.iphone-8-homepage .simply-purchase-your-JI4aVo {
+  background-color: transparent;
+  height: 144px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 261px;
+  width: 333px;
+}
+
+.iphone-8-homepage .quick-easy-offset-yo-JI4aVo {
+  background-color: transparent;
+  height: auto;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 161px;
+  width: 302px;
+}
+
+.iphone-8-homepage .span0-m3WLmm {
+}
+
+.iphone-8-homepage .span1-m3WLmm {
+}
+
+.iphone-8-homepage .group-289142-JI4aVo {
+  background-color: transparent;
+  height: 140px;
+  left: 95px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-32-F9bSVY {
+  background-color: transparent;
+  border-radius: 70px;
+  height: 140px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-31-F9bSVY {
+  background-color: var(--white-2);
+  border-radius: 54px;
+  height: 108px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 108px;
+}
+
+.iphone-8-homepage .vector-F9bSVY {
+  background-color: transparent;
+  height: 52px;
+  left: 37px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 42px;
+  width: 55px;
+}
+
+.iphone-8-homepage .x11-MP3WEa {
+  background-color: transparent;
+  height: 375px;
+  left: 0px;
+  position: absolute;
+  top: 667px;
+  width: 344px;
+}
+
+.iphone-8-homepage .carbon-credit-prices-Njyx89 {
+  background-color: transparent;
+  height: 144px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 231px;
+  width: 340px;
+}
+
+.iphone-8-homepage .low-cost-protection-Njyx89 {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 158px;
+  width: 302px;
+}
+
+.iphone-8-homepage .span0-McWlbl {
+}
+
+.iphone-8-homepage .span1-McWlbl {
+}
+
+.iphone-8-homepage .group-289143-Njyx89 {
+  background-color: transparent;
+  height: 140px;
+  left: 101px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-32-KgmErL {
+  background-color: transparent;
+  border-radius: 70px;
+  height: 140px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-31-KgmErL {
+  background-color: var(--white-2);
+  border-radius: 54px;
+  height: 108px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 108px;
+}
+
+.iphone-8-homepage .vector-KgmErL {
+  background-color: transparent;
+  height: 50px;
+  left: 44px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 47px;
+  width: 51px;
+}
+
+.iphone-8-homepage .x12-MP3WEa {
+  background-color: transparent;
+  height: 404px;
+  left: 0px;
+  position: absolute;
+  top: 1082px;
+  width: 345px;
+}
+
+.iphone-8-homepage .our-experts-have-yea-xCqvql {
+  background-color: transparent;
+  height: 168px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 236px;
+  width: 340px;
+}
+
+.iphone-8-homepage .high-impact-diverse-xCqvql {
+  background-color: transparent;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 158px;
+  width: 332px;
+}
+
+.iphone-8-homepage .span0-r7c779 {
+}
+
+.iphone-8-homepage .span1-r7c779 {
+}
+
+.iphone-8-homepage .group-289144-xCqvql {
+  background-color: transparent;
+  height: 140px;
+  left: 101px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-32-AOHwrA {
+  background-color: transparent;
+  border-radius: 70px;
+  height: 140px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-31-AOHwrA {
+  background-color: var(--white-2);
+  border-radius: 54px;
+  height: 108px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 108px;
+}
+
+.iphone-8-homepage .icon-target-AOHwrA {
+  background-color: transparent;
+  height: 55px;
+  left: 46px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 40px;
+  width: 55px;
+}
+
+.iphone-8-homepage .x13-MP3WEa {
+  background-color: transparent;
+  height: 404px;
+  left: 0px;
+  position: absolute;
+  top: 1526px;
+  width: 345px;
+}
+
+.iphone-8-homepage .nft-members-gain-acc-xwkIcn {
+  background-color: transparent;
+  height: 168px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 236px;
+  width: 340px;
+}
+
+.iphone-8-homepage .shareable-use-our-so-xwkIcn {
+  background-color: transparent;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 158px;
+  width: 332px;
+}
+
+.iphone-8-homepage .span0-cdz43U {
+}
+
+.iphone-8-homepage .span1-cdz43U {
+}
+
+.iphone-8-homepage .x4-xwkIcn {
+  background-color: transparent;
+  height: 140px;
+  left: 101px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-32-orJYkC {
+  background-color: transparent;
+  border-radius: 70px;
+  height: 140px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.iphone-8-homepage .ellipse-31-orJYkC {
+  background-color: var(--white-2);
+  border-radius: 54px;
+  height: 108px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 108px;
+}
+
+.iphone-8-homepage .vector-orJYkC {
+  background-color: transparent;
+  height: 55px;
+  left: 39px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 42px;
+  width: 55px;
+}
+
+.iphone-8-homepage .group-289148-sxg2Z9 {
+  background-color: transparent;
+  height: 661px;
+  left: 18px;
+  position: absolute;
+  top: 5198px;
+  width: 478px;
+}
+
+.iphone-8-homepage .which-token-is-right-dkhdBa {
+  background-color: transparent;
+  height: 180px;
+  left: 26px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 277px;
+}
+
+.iphone-8-homepage .annual-carbon-offset-tokens-dkhdBa {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 238px;
+  width: 144px;
+}
+
+.iphone-8-homepage .good-for-dkhdBa {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 318px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.iphone-8-homepage .nft-price-dkhdBa {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 374px;
+  white-space: nowrap;
+  width: 104px;
+}
+
+.iphone-8-homepage .access-dkhdBa {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 430px;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.iphone-8-homepage .group-289146-dkhdBa {
+  background-color: transparent;
+  height: 388px;
+  left: 133px;
+  position: absolute;
+  top: 225px;
+  width: 163px;
+}
+
+.iphone-8-homepage .rectangle-468-jWYYGX {
+  background-color: var(--white-2);
+  border: 1px solid #4792a5;
+  border-radius: 10px;
+  height: 388px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 155px;
+}
+
+.iphone-8-homepage .x10-jWYYGX {
+  background-color: transparent;
+  height: 30px;
+  left: 68px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .individualsfamilies-jWYYGX {
+  background-color: transparent;
+  height: 48px;
+  left: 23px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 81px;
+  width: 122px;
+}
+
+.iphone-8-homepage .x2-designs-jWYYGX {
+  background-color: transparent;
+  height: 30px;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 146px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .xx-sol-jWYYGX {
+  background-color: transparent;
+  height: 30px;
+  left: 53px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 202px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-10-jWYYGX {
+  background-color: transparent;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 77px;
+  width: 131px;
+}
+
+.iphone-8-homepage .line-20-jWYYGX {
+  background-color: transparent;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 133px;
+  width: 131px;
+}
+
+.iphone-8-homepage .line-21-jWYYGX {
+  background-color: transparent;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 189px;
+  width: 131px;
+}
+
+.iphone-8-homepage .line-22-jWYYGX {
+  background-color: transparent;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 245px;
+  width: 131px;
+}
+
+.iphone-8-homepage .line-23-jWYYGX {
+  background-color: transparent;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 301px;
+  width: 131px;
+}
+
+.iphone-8-homepage .vector-jWYYGX {
+  background-color: transparent;
+  height: 31px;
+  left: 64px;
+  position: absolute;
+  top: 335px;
+  width: 31px;
+}
+
+.iphone-8-homepage .group-289147-dkhdBa {
+  background-color: transparent;
+  height: 388px;
+  left: 303px;
+  position: absolute;
+  top: 225px;
+  width: 163px;
+}
+
+.iphone-8-homepage .rectangle-468-BAYlBN {
+  background-color: var(--white-2);
+  border: 1px solid #4792a5;
+  border-radius: 10px;
+  height: 388px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 155px;
+}
+
+.iphone-8-homepage .x10-BAYlBN {
+  background-color: transparent;
+  height: 30px;
+  left: 68px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .individualsfamilies-BAYlBN {
+  background-color: transparent;
+  height: 48px;
+  left: 23px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 81px;
+  width: 122px;
+}
+
+.iphone-8-homepage .x2-designs-BAYlBN {
+  background-color: transparent;
+  height: 30px;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 146px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .xx-sol-BAYlBN {
+  background-color: transparent;
+  height: 30px;
+  left: 53px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 202px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .line-10-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 77px;
+  width: 25px;
+}
+
+.iphone-8-homepage .line-20-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 133px;
+  width: 25px;
+}
+
+.iphone-8-homepage .line-21-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 189px;
+  width: 25px;
+}
+
+.iphone-8-homepage .line-22-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 245px;
+  width: 25px;
+}
+
+.iphone-8-homepage .line-23-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 301px;
+  width: 25px;
+}
+
+.iphone-8-homepage .vector-BAYlBN {
+  background-color: transparent;
+  height: 1px;
+  left: 84px;
+  position: absolute;
+  top: 357px;
+  width: 1px;
+}
+
+.iphone-8-homepage .hero-dkhdBa {
+  background-color: transparent;
+  height: 30px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 164px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .text_label-dkhdBa {
+  background-color: transparent;
+  height: 30px;
+  left: 109px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 164px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .yy-dkhdBa {
+  background-color: transparent;
+  height: 30px;
+  left: 202px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 164px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .hero-nrxYmx {
+  background-color: transparent;
+  height: 30px;
+  left: 294px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 164px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .coming-soon-dkhdBa {
+  background-color: transparent;
+  height: auto;
+  left: 133px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 625px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.iphone-8-homepage .status-bar-sxg2Z9 {
+  background-color: transparent;
+  height: 25px;
+  left: -2px;
+  position: fixed;
+  top: -1px;
+  width: 365px;
+}
+
+.iphone-8-homepage .status-bar-bg-UKxnFt {
+  background-color: transparent;
+  height: 24px;
+  left: 2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 360px;
+}
+
+.iphone-8-homepage .status-bar-contents-UKxnFt {
+  background-color: transparent;
+  height: 24px;
+  left: 245px;
+  position: absolute;
+  top: 0px;
+  width: 118px;
+}
+
+.iphone-8-homepage .bounds-b56qmJ {
+  background-color: transparent;
+  height: 1px;
+  left: 59px;
+  position: absolute;
+  top: 12px;
+  width: 1px;
+}
+
+.iphone-8-homepage .wifi-b56qmJ {
+  background-color: transparent;
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: 6px;
+  width: 16px;
+}
+
+.iphone-8-homepage .reception-b56qmJ {
+  background-color: transparent;
+  height: 12px;
+  left: 34px;
+  position: absolute;
+  top: 6px;
+  width: 12px;
+}
+
+.iphone-8-homepage .battery-b56qmJ {
+  background-color: transparent;
+  height: 13px;
+  left: 60px;
+  position: absolute;
+  top: 5px;
+  width: 8px;
+}
+
+.iphone-8-homepage .time-b56qmJ {
+  background-color: transparent;
+  height: 15px;
+  left: 77px;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  position: absolute;
+  top: 5px;
+  width: 35px;
+}
+
+.iphone-8-homepage .x1230-3BLV9x {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 33px;
+}
